@@ -12,7 +12,8 @@ for example:
 BUT NOTICE that servers and clients communication includes number of certain message like service information which isn't printed out
 
 ## Clients
-### tcpclient and udpclient
+
+### tcpclient(Linux) and udpclient(Windows)
 run command (127.0.0.1 ip for localhost)
 ```
 ./client ip:port file_with_messages.txt
@@ -25,13 +26,14 @@ run command
 ```
 Gets messages from server
 ## Servers
-### TCP server
+### tcpserver(Windows)
+
 run command
 ```
 ./tcpserver port
 ```
 Save messages from clients on port or send in tcpclient2 case
-### UDP server
+### udpserver(Linux)
 run command
 ```
 ./tcpserver port1 port2
